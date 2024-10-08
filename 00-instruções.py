@@ -39,3 +39,5 @@
 
 # def = definir a função ou declarar exemplo: def somar(a, b)/ se inicia apos a declaração da função
 # return = retorno / leva o resultado e armazena a soma
+
+# break = interromper ou encerrar o loop e segui após o codigo
