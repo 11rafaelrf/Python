@@ -38,18 +38,18 @@ ca = 0
 
 def teorema_pitagoras(escolha):
     if escolha == 1:
-        hipo = int(input("Informe a hipotenusa: "))
-        ca = int(input("Informe o cateto adjacente: "))
+        hipo = float(input("Informe a hipotenusa: "))
+        ca = float(input("Informe o cateto adjacente: "))
         print(f"O CATETO OPOSTO É: {cateto_oposto(hipo, ca)}\n")
 
     elif escolha == 2:
-        hipo = int(input("Informe a hipotenusa: "))
-        co = int(input("Informe o cateto adjacente: "))
+        hipo = float(input("Informe a hipotenusa: "))
+        co = float(input("Informe o cateto adjacente: "))
         print(f"O CATETO ADJACENTE É: {cateto_adjacente(hipo, co)}\n")
 
     elif escolha == 3:
-        co = int(input("Informe o cateto oposto: "))
-        ca = int(input("Informe o cateto adjacente: "))
+        co = float(input("Informe o cateto oposto: "))
+        ca = float(input("Informe o cateto adjacente: "))
         print(f"A HIPOTENUSA É: {hipotenusa(co, ca)}\n")
     else:
         print("Opção inválida :(")
