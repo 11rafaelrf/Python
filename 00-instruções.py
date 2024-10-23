@@ -41,3 +41,6 @@
 # return = retorno / leva o resultado e armazena a soma
 
 # break = interromper ou encerrar o loop e segui após o codigo
+
+# para = for/ interar sobre sequencia, ele percorre / for i in range(1, 50)
+# range = gera uma sequencia de numeros / range(1, 50)
